@@ -1,0 +1,54 @@
+/* Подписка */
+
+
+.signup__footer {
+    margin-left: auto;
+}
+
+.signup__title {
+    display: block;
+    @include fonts(700, 14px, 1.14);
+    text-transform: uppercase;
+    color: var(--primery-white-color);
+    margin-bottom: 20px;
+}
+
+.signup__input {
+    display: inline-block;
+    width: 358px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    margin-right: 12px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    color: var(--primery-white-color);
+    background-color: transparent;
+
+    &::placeholder {
+
+        @include fonts(400, 16px, 1.25);
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+
+
+.signup__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.signup__icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--primery-white-color);
+    margin-left: 10px;
+}

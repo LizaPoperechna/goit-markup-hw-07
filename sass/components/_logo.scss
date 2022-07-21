@@ -1,0 +1,26 @@
+.logo {
+    font-family: var(--logo-font);
+    @include fonts(700, 26px, 1.19);
+    color: var(--accent-color);
+    display: block;
+}
+
+
+.logo__header {
+    margin-right: 93px;
+
+    &--dark {color: var(--title-text-color);
+    }
+}
+
+
+.logo__footer {
+    margin-bottom: 20px;
+
+    &--white {
+        color: var(--primery-white-color)
+        
+    }
+
+}
+
